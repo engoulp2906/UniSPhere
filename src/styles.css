@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Login: */
+
+.Login {
+
+    background-image: linear-gradient(rgba(50, 59, 99, 0.7), rgba(4, 9, 30, 0.7)), url(gibili.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 10px 50px 40px 80px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #f9cd9ed3;
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background: #ffffff;
+    color: #444;
+}
+
+.rg {
+    width: 540px;
+    background: transparent;
+    border: 1px solid rgb(235, 215, 186);
+    backdrop-filter: blur(4px);
+    color: rgb(112, 174, 229);
+    border-radius: 13px;
+    padding: 30px 40px;
+}
+
+.rg h1 {
+    font-size: 36px;
+    color: rgb(250, 233, 151);
+    text-align: center;
+}
+
+.rg .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-color: none;
+    outline: none;
+    border: 2px solid rgb(193, 107, 16, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.rg .rem-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.rem-forgot label input:hover {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.rem-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.rem-forgot a:hover {
+    text-decoration: underline;
+    color: rgb(245, 198, 149);
+}
+
+.rg .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #faab61;
+    font-weight: 600;
+}
+
+.rg .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.register-link p {
+    color: rgb(117, 117, 173);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    color: rgb(245, 198, 149);
+    text-decoration: underline;
+}
+
+/* Registration: */
+.REg {
+    background-image: linear-gradient(rgba(50, 59, 99, 0.7), rgba(4, 9, 30, 0.7)), url(gibili.png);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.tonav {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 10px 50px 40px 190px;
+}
+
+.tonav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.tonav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.tonav a.active {
+    background: #fff;
+    color: black;
+}
+
+.th {
+    width: 750px;
+    background: rgba(4, 44, 248, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.66);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    color: white;
+    padding: 40px 35px 55px;
+}
+
+.th h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.th .inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputs .input-feild {
+    position: relative;
+    width: 48%;
+    margin: 13px 0;
+}
+
+.inputs .input-feild input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+}
+
+.inputs .input-feild input::placeholder {
+    color: #fff;
+}
+
+.inputs .input-feild i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.th label {
+    font-size: 14.5px;
+    display: inline-block;
+    margin: 10px 0 23px;
+}
+
+.th label input {
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.th .btn1 {
+    width: 100%;
+    height: 45px;
+    background: rgba(1, 252, 227, 0.256);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+
+
+/* Home */
+
+.header {
+    background-image: linear-gradient(rgba(50, 59, 99, 0.7), rgba(4, 9, 30, 0.7)), url(gibili.png);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 250px;
+}
+
+.nav-link {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 14px;
+    position: relative;
+}
+
+.nav-link ul li a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 15px;
+    transform: translateY(35%);
+}
+
+.nav-link ul li a:hover {
+    background-color: #f8b66fc1;
+    color: #444;
+}
+
+.nav-link ul li a.active {
+    background: #fff;
+    color: black;
+}
+
+.nav-link ul li a.active:hover {
+    background: #f4b673c1;
+    color: #444;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 60px;
+}
+
+.text-box h3 {
+    font-size: 25px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 17px;
+    color: white;
+}
+
+.hbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hbtn:hover {
+    border: 1px solid rgb(242, 201, 65);
+    background: #efa85d;
+    transition: 0.5s;
+}
+
+@media(max-width:700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .text-box h3 {
+        font-size: 13px;
+    }
+
+    .nav-link ul li {
+        display: block;
+    }
+
+    .nav-link {
+        position: absolute;
+        background: grey;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+
+    }
+}
+
+/*---about----*/
+
+.About {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About-col {
+    flex-basis: 31%;
+    background: #f9aa7668;
+    border-radius: 10px;
+    border-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.About-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .bx {
+    color: rgb(246, 131, 37);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.bx-heart {
+    color: #f57936bb;
+}
+
+/*.....After login.....*/

@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "id": "845d",
+      "name": "claro",
+      "username": "engoulp",
+      "email": "pubg4thday@gmail.com",
+      "phone": "8746376351",
+      "password": "engoulp1",
+      "details": {
+        "university": "Vit vellore ",
+        "course": "BTech IT",
+        "year": "2024",
+        "privacy": "public"
+      },
+      "detailsFilled": true
+    },
+    {
+      "id": "4233",
+      "name": "sree",
+      "username": "sri",
+      "email": "sree@gmail.com",
+      "phone": "6543789321",
+      "password": "sree"
+    },
+    {
+      "id": "cca8",
+      "name": "arjun",
+      "username": "arjun",
+      "email": "arjun@gmail.com",
+      "phone": "9746352651",
+      "password": "arjun"
+    },
+    {
+      "id": "6d79",
+      "name": "sreeees",
+      "username": "sreeee",
+      "email": "sree1@gmail.com",
+      "phone": "8756473512",
+      "password": "arjun"
+    },
+    {
+      "id": "bcdb",
+      "name": "Bellamkonda Venkata Manoj Kumar",
+      "username": "engoulp1",
+      "email": "engoulp12@gmail.com",
+      "phone": "8746374781",
+      "password": "engoulp",
+      "details": {},
+      "detailsFilled": false
+    },
+    {
+      "id": "857f",
+      "name": "arjun12",
+      "username": "arjun12",
+      "email": "sjkdbckjdaswj@gmail.com",
+      "phone": "1234567890",
+      "password": "123",
+      "detailsFilled": false,
+      "details": {}
+    },
+    {
+      "id": "afeb",
+      "name": "harshit",
+      "username": "harsh",
+      "email": "harsh12@gmail.com",
+      "phone": "7654321982",
+      "password": "harsh",
+      "detailsFilled": true,
+      "details": {
+        "university": "Vit vellore ",
+        "course": "CSE",
+        "year": "2023",
+        "privacy": "private"
+      }
+    }
+  ],
+  "courses": [
+    {
+      "id": "cse101",
+      "name": "Data Structures",
+      "materials": [
+        {
+          "id": "m1",
+          "title": "Linked List PDF",
+          "url": "/files/linked_list.pdf"
+        },
+        {
+          "id": "m2",
+          "title": "Sorting Algorithms",
+          "url": "/files/linked_list.pdf"
+        }
+      ]
+    },
+    {
+      "id": "cse102",
+      "name": "Probability and Statistics",
+      "materials": [
+        {
+          "id": "m3",
+          "title": "Test of Hypothesis",
+          "url": "/files/linked_list.pdf"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "1743355445350",
+      "name": "Book 29 Mar 2025 (1).pdf",
+      "fileUrl": "/uploads/Book 29 Mar 2025 (1).pdf"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1743432491193",
+      "text": "Hello",
+      "imageUrl": null,
+      "timestamp": "8:18:11 PM",
+      "sender": "claro"
+    },
+    {
+      "id": "1743435238162",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3000/66a02bcc-d98d-4628-8ed5-6040c5840ace",
+      "timestamp": "9:03:58 PM",
+      "sender": "arjun12"
+    },
+    {
+      "id": "1743489927147",
+      "text": "hello",
+      "imageUrl": null,
+      "timestamp": "12:15:27 PM",
+      "sender": "Bellamkonda Venkata Manoj Kumar"
+    },
+    {
+      "id": "1743496703127",
+      "text": "",
+      "imageUrl": "blob:http://localhost:3000/12b4bb93-c6e4-4bcc-9858-a2c535e220d0",
+      "timestamp": "2:08:23 PM",
+      "sender": "Bellamkonda Venkata Manoj Kumar"
+    }
+  ],
+  "message": [
+    {
+      "id": "1743420264905",
+      "text": "hi",
+      "timestamp": "4:54:24 PM",
+      "sender": "claro",
+      "program": "BTech CSE",
+      "university": "Vit vellore "
+    },
+    {
+      "id": "1743426320189",
+      "text": "hello",
+      "timestamp": "6:35:20 PM",
+      "sender": "claro",
+      "program": "BTech IT",
+      "university": "Vit vellore "
+    },
+    {
+      "id": "1743478819683",
+      "text": "hello",
+      "timestamp": "9:10:19 AM",
+      "sender": "harshit",
+      "program": "CSE",
+      "university": "Vit vellore "
+    },
+    {
+      "id": "1743489912323",
+      "text": "hi",
+      "timestamp": "12:15:12 PM",
+      "sender": "Bellamkonda Venkata Manoj Kumar"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Rivera",
+      "date": "2025-03-10",
+      "background": "back.jpg",
+      "description": "Rivera is VIT Vellore's largest cultural fest, featuring music, dance, and literary events.",
+      "university": "VIT Vellore"
+    },
+    {
+      "id": "2",
+      "name": "TechNova",
+      "date": "2025-04-15",
+      "background": "back.jpg",
+      "description": "TechNova is a grand tech fest hosted by IIT Bombay, showcasing innovation, AI, and robotics.",
+      "university": "IIT Bombay"
+    },
+    {
+      "id": "3",
+      "name": "HackInfinity",
+      "date": "2025-06-20",
+      "background": "back.jpg",
+      "description": "HackInfinity is an intense 36-hour hackathon held at BITS Pilani, focusing on AI and blockchain.",
+      "university": "BITS Pilani"
+    }
+  ],
+  "questionPapers": [
+    {
+      "id": 1,
+      "name": "Data Structures & Algorithms",
+      "university": "VIT Vellore",
+      "year": "2023",
+      "category": "CSE",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Digital Electronics",
+      "university": "IIT Madras",
+      "year": "2022",
+      "category": "ECE",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": 3,
+      "name": "Thermodynamics",
+      "university": "IISc Bangalore",
+      "year": "2021",
+      "category": "Mechanical",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": 4,
+      "name": "Structural Analysis",
+      "university": "Delhi University",
+      "year": "2020",
+      "category": "Civil",
+      "url": "/files/linked_list.pdf"
+    },
+    {
+      "id": 5,
+      "name": "Power Systems",
+      "university": "IIT Bombay",
+      "year": "2023",
+      "category": "EEE",
+      "url": "/files/linked_list.pdf"
+    }
+  ]
+}
