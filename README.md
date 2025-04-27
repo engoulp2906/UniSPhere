@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pre-requestics
+## `npm create-react-app/unisphere`
+
+To install react app modules. 
+
 ## Available Scripts
 
 In the project directory, you can run:
